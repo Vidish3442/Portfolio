@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Vidish Kumar - AI/ML Engineer & Data Scientist | Portfolio</title>
+    <meta name="description" content="Vidish Kumar - Aspiring AI/ML Engineer and Data Scientist from NIET with 8.8 CGPA. Expert in Deep Learning, Computer Vision, and NLP. 250+ LeetCode problems solved. Explore innovative AI projects.">
+    <meta name="keywords" content="Vidish Kumar, AI Engineer, Machine Learning, Data Scientist, Deep Learning, Computer Vision, Python, TensorFlow, PyTorch, AI Portfolio">
+    <meta name="author" content="Vidish Kumar">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://vidishkumar.dev">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vidish Kumar - AI/ML Engineer Portfolio">
+    <meta property="og:description" content="Aspiring AI/ML Engineer from NIET (8.8 CGPA) specializing in Deep Learning, Computer Vision & NLP.">
+    <meta property="og:image" content="https://vidishkumar.dev/img1.png">
+    <meta property="og:url" content="https://vidishkumar.dev">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img1.png">
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts - More distinctive choices -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Emergency Preloader Hide Script -->
+    <script>
+        // Ultra-fast preloader hide
+        setTimeout(function() {
+            var preloader = document.getElementById('preloader');
+            if (preloader) {
+                preloader.style.display = 'none';
+            }
+        }, 100);
+        
+        // Hide on any interaction
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                var preloader = document.getElementById('preloader');
+                if (preloader) {
+                    preloader.style.display = 'none';
+                }
+            }, 200);
+        });
+    </script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Vidish Kumar",
+        "jobTitle": "AI/ML Engineer & Data Scientist",
+        "url": "https://vidishkumar.dev",
+        "image": "https://vidishkumar.dev/img1.png",
+        "sameAs": [
+            "https://www.linkedin.com/in/vidishkumar/",
+            "https://github.com/Vidish3442"
+        ],
+        "alumniOf": "Noida Institute of Engineering and Technology"
+    }
+    </script>
+    
+    <!-- 3D Model Viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <!-- Minimal Preloader -->
+    <div id="preloader" class="preloader" onclick="this.style.display='none'">
+        <div class="preloader-content">
+            <div class="logo-spin">VK</div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <p style="color: white; margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">Click anywhere to continue</p>
+            <button onclick="document.getElementById('preloader').style.display='none'" 
+                    style="margin-top: 1rem; padding: 0.5rem 1rem; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); color: white; border-radius: 0.5rem; cursor: pointer;">
+                Skip Loading
+            </button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home" class="logo" aria-label="Vidish Kumar - Home">
+                    <span class="logo-icon" aria-hidden="true">VK</span>
+                    <span class="logo-text">Vidish Kumar</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu" role="list">
+                <li><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-label="Page scroll progress"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <!-- Background Effects -->
+            <div class="hero-bg" aria-hidden="true">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                    <div class="shape shape-5"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-greeting">
+                            <span class="greeting-text">Hello, I'm</span>
+                        </div>
+                        <h1 id="hero-title" class="hero-title">
+                            <span class="typewriter-name" data-text="Vidish Kumar">Vidish Kumar</span>
+                        </h1>
+                        <div class="hero-subtitle" role="heading" aria-level="2">
+                            <span class="typewriter-role" data-text="AI/ML Engineer,Data Scientist,Deep Learning Expert,Computer Vision Developer,NLP Specialist,Problem Solver">AI/ML Engineer</span>
+                        </div>
+                        <p class="hero-description">
+                            Aspiring AI/ML Engineer transforming innovative ideas into intelligent solutions. 
+                            I leverage Deep Learning, Computer Vision, and NLP to build impactful AI applications. 
+                            Currently pursuing B.Tech at NIET with 8.8 CGPA, while actively contributing to 
+                            real-world AI projects.
+                        </p>
+                        
+                        <div class="hero-stats" aria-label="Key statistics">
+                            <div class="stat-item">
+                                <div class="stat-icon" aria-hidden="true">
+                                    <i class="fas fa-project-diagram"></i>
+                                </div>
+                                <span class="stat-number" data-count="15" aria-label="15 AI Projects">0</span>
+                                <span class="stat-label">AI Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon" aria-hidden="true">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <span class="stat-number" data-count="250" aria-label="250 plus LeetCode problems solved">0</span>
+                                <span class="stat-label">LeetCode+</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary" role="button" tabindex="0">
+                                <span class="btn-text">Explore My Work</span>
+                                <i class="fas fa-rocket btn-icon"></i>
+                            </a>
+                            <a href="#contact" class="btn btn-secondary" role="button" tabindex="0">
+                                <span class="btn-text">Let's Connect</span>
+                                <i class="fas fa-paper-plane btn-icon"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/vidishkumar/" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span class="social-tooltip">LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/Vidish3442" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span class="social-tooltip">GitHub</span>
+                            </a>
+                            <a href="mailto:vidishkumar890@gmail.com" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                                <span class="social-tooltip">Email</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <!-- 3D Model Container -->
+                        <div class="model-3d-container">
+                            <model-viewer
+                                src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+                                alt="3D AI Robot Model"
+                                camera-controls
+                                auto-rotate
+                                auto-rotate-delay="1000"
+                                rotation-per-second="30deg"
+                                interaction-prompt="none"
+                                exposure="1.2"
+                                shadow-intensity="0.8"
+                                environment-image="neutral"
+                                loading="eager"
+                                reveal="auto"
+                            ></model-viewer>
+                            
+                            <!-- Model Status -->
+                            <div class="model-status">
+                                <div class="status-indicator">
+                                    <div class="status-dot"></div>
+                                    <span class="status-text">AI Model Active</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Code Editor Container -->
+                        <div class="code-editor-container">
+                            <div class="editor-header">
+                                <div class="editor-controls">
+                                    <span class="control-dot red"></span>
+                                    <span class="control-dot yellow"></span>
+                                    <span class="control-dot green"></span>
+                                </div>
+                                <div class="editor-title">ai_portfolio.py</div>
+                            </div>
+                            <div class="editor-content">
+                                <div class="code-line">
+                                    <span class="line-number">1</span>
+                                    <span class="code-text">
+                                        <span class="keyword">import</span> <span class="module">tensorflow</span> <span class="keyword">as</span> <span class="module">tf</span>
+                                    </span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="line-number">2</span>
+                                    <span class="code-text">
+                                        <span class="keyword">import</span> <span class="module">numpy</span> <span class="keyword">as</span> <span class="module">np</span>
+                                    </span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="line-number">3</span>
+                                    <span class="code-text">
+                                        <span class="keyword">from</span> <span class="module">sklearn</span> <span class="keyword">import</span> <span class="function">model_selection</span>
+                                    </span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="line-number">4</span>
+                                    <span class="code-text"></span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="line-number">5</span>
+                                    <span class="code-text">
+                                        <span class="keyword">class</span> <span class="class-name">AIEngineer</span>:
+                                    </span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="line-number">6</span>
+                                    <span class="code-text">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">def</span> <span class="function">__init__</span>(<span class="keyword">self</span>):
+                                    </span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="line-number">7</span>
+                                    <span class="code-text">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">self</span>.<span class="property">name</span> = <span class="string">"Vidish Kumar"</span>
+                                    </span>
+                                </div>
+                                <div class="code-line">
+                                    <span class="line-number">8</span>
+                                    <span class="code-text">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">self</span>.<span class="property">skills</span> = [<span class="string">"ML"</span>, <span class="string">"DL"</span>, <span class="string">"CV"</span>]
+                                    </span>
+                                </div>
+                                <div class="code-line typing-line">
+                                    <span class="line-number">9</span>
+                                    <span class="code-text">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="string">"Innovation"</span><span class="cursor">|</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Tech Icons -->
+                        <div class="floating-tech-icons">
+                            <div class="tech-icon python" style="top: 15%; right: -30px;">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tech-icon tensorflow" style="top: 35%; left: -40px;">
+                                <i class="fas fa-brain"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="tech-icon opencv" style="bottom: 35%; right: -35px;">
+                                <i class="fas fa-eye"></i>
+                                <span>OpenCV</span>
+                            </div>
+                            <div class="tech-icon data" style="bottom: 15%; left: -45px;">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Data Science</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scroll Indicator -->
+                <div class="scroll-indicator">
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                    <span class="scroll-text">Scroll to explore</span>
+                    <div class="scroll-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">Get to know me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-desc">Passionate about creating intelligent solutions that make a difference</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <div class="text-block">
+                            <h3><i class="fas fa-user" aria-hidden="true"></i> Who I Am</h3>
+                            <p>
+                                I'm an aspiring AI/ML Engineer and Data Scientist with a passion for transforming complex challenges 
+                                into elegant AI-powered solutions. Currently pursuing B.Tech in Computer Science & Business Systems 
+                                at NIET with an impressive 8.8 CGPA, I specialize in Deep Learning, Computer Vision, and Natural Language Processing.
+                            </p>
+                        </div>
+                        
+                        <div class="text-block">
+                            <h3><i class="fas fa-cogs" aria-hidden="true"></i> What I Do</h3>
+                            <p>
+                                My expertise spans the entire AI/ML pipeline - from data preprocessing and feature engineering 
+                                to model development, evaluation, and deployment. I've successfully built healthcare AI applications, 
+                                real-time computer vision systems, and intelligent chatbots that solve real-world problems.
+                            </p>
+                        </div>
+                        
+                        <div class="text-block">
+                            <h3><i class="fas fa-rocket" aria-hidden="true"></i> My Mission</h3>
+                            <p>
+                                I believe in leveraging AI to create meaningful impact. Whether developing medical diagnosis 
+                                systems or building intelligent applications for mental health support, I'm committed to using 
+                                technology responsibly to make a positive difference in the world.
+                            </p>
+                        </div>
+                        
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                                <span>8.8 CGPA at NIET</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-code" aria-hidden="true"></i>
+                                <span>250+ LeetCode Problems</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-trophy" aria-hidden="true"></i>
+                                <span>Multiple Certifications</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-users" aria-hidden="true"></i>
+                                <span>Community Leader</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual" data-aos="fade-left">
+                        <div class="achievement-cards">
+                            <div class="achievement-card">
+                                <div class="card-icon" aria-hidden="true"><i class="fas fa-project-diagram"></i></div>
+                                <div class="card-content">
+                                    <h4>20+</h4>
+                                    <p>Projects Completed</p>
+                                </div>
+                            </div>
+                            
+                            <div class="achievement-card">
+                                <div class="card-icon" aria-hidden="true"><i class="fas fa-percentage"></i></div>
+                                <div class="card-content">
+                                    <h4>86%</h4>
+                                    <p>Best Model Accuracy</p>
+                                </div>
+                            </div>
+                            
+                            <div class="achievement-card">
+                                <div class="card-icon" aria-hidden="true"><i class="fas fa-star"></i></div>
+                                <div class="card-content">
+                                    <h4>8.8</h4>
+                                    <p>CGPA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section section-alt experience-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">My Journey</span>
+                    <h2 class="section-title">Experience</h2>
+                    <p class="section-desc">Professional journey and valuable experiences</p>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>AI/ML Intern</h3>
+                            <span class="company">ElevvoPaths</span>
+                            <span class="duration">Apr 2025 - Jun 2025</span>
+                            <p>
+                                Engaged in comprehensive data analysis, machine learning, and deep learning projects. 
+                                Built regression, classification, and clustering models with focus on data preprocessing 
+                                and model evaluation.
+                            </p>
+                            <ul class="highlights">
+                                <li>Built and optimized ML models for various use cases</li>
+                                <li>Implemented data preprocessing pipelines</li>
+                                <li>Delivered measurable results through AI/ML implementations</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Machine Learning</span>
+                                <span class="tech-tag">Deep Learning</span>
+                                <span class="tech-tag">Data Science</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-marker">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Leadership & Presentation Team</h3>
+                            <span class="company">Nobel Learning Community</span>
+                            <span class="duration">Jun 2025 - Oct 2025</span>
+                            <p>
+                                Member of leadership team, actively involved in hosting events and supporting 
+                                management activities. Focused on improving communication and public speaking skills.
+                            </p>
+                            <ul class="highlights">
+                                <li>Hosted college-level technical events</li>
+                                <li>Improved communication and public speaking</li>
+                                <li>Engaged in leadership and community building</li>
+                            </ul>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Leadership</span>
+                                <span class="tech-tag">Public Speaking</span>
+                                <span class="tech-tag">Event Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">What I Know</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-desc">Technologies and tools I work with</p>
+                </div>
+                
+                <div class="skills-content">
+                    <div class="skills-categories" data-aos="fade-up">
+                        <button class="skill-category active" data-category="programming">
+                            <i class="fas fa-code"></i>
+                            <span>Programming</span>
+                        </button>
+                        <button class="skill-category" data-category="aiml">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML</span>
+                        </button>
+                        <button class="skill-category" data-category="data">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Science</span>
+                        </button>
+                        <button class="skill-category" data-category="tools">
+                            <i class="fas fa-tools"></i>
+                            <span>Tools & Cloud</span>
+                        </button>
+                    </div>
+                    
+                    <div class="skills-display" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Programming Skills -->
+                        <div class="skills-group active" id="programming">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78%"></div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C++</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- AI/ML Skills -->
+                        <div class="skills-group" id="aiml">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">TensorFlow</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PyTorch</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="55%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">OpenCV</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Data Science Skills -->
+                        <div class="skills-group" id="data">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">NumPy</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="74%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Matplotlib</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="60%"></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- Tools Skills -->
+                        <div class="skills-group" id="tools">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Jupyter</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Streamlit</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="71%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="section section-alt projects-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">My Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-desc">Innovative AI/ML solutions I've built</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-category="ai-ml computer-vision" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&h=300&fit=crop" alt="Diabetic Retinopathy Detection" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/Vidish3442/Diabetic-Retinopathy-Detection" target="_blank" rel="noopener" class="project-link" aria-label="View source code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://drdetection-vk-sp.streamlit.app" target="_blank" rel="noopener" class="project-link" aria-label="View live demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">AI/ML • Computer Vision</div>
+                            <h3 class="project-title">Diabetic Retinopathy Detection</h3>
+                            <p class="project-description">
+                                Deep learning model using ResNet architecture for multi-class classification 
+                                of diabetic retinopathy stages. Achieved 86% accuracy with live deployment.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">ResNet</span>
+                                <span class="tech-tag">Computer Vision</span>
+                                <span class="tech-tag">Streamlit</span>
+                            </div>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <i class="fas fa-percentage"></i>
+                                    <span>86% Accuracy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="ai-ml computer-vision" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=500&h=300&fit=crop" alt="Drone Detection" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/Vidish3442/Drone" target="_blank" rel="noopener" class="project-link" aria-label="View source code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">AI/ML • Computer Vision</div>
+                            <h3 class="project-title">Drone Detection System</h3>
+                            <p class="project-description">
+                                Real-time drone detection using YOLOv8 with Flask backend. 
+                                Integrated database for enhanced recognition capabilities.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">YOLOv8</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">Real-time</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="ai-ml web-app" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=500&h=300&fit=crop" alt="AI Chatbot" loading="lazy">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/Vidish3442/Manosakhi-chatbot" target="_blank" rel="noopener" class="project-link" aria-label="View source code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">AI/ML • Web App</div>
+                            <h3 class="project-title">Manosakhi AI Chatbot</h3>
+                            <p class="project-description">
+                                Intelligent conversational AI using Google Gemini API for mental health support 
+                                with natural language understanding.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Gemini API</span>
+                                <span class="tech-tag">NLP</span>
+                                <span class="tech-tag">Streamlit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-cta" data-aos="fade-up">
+                    <a href="https://github.com/Vidish3442?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline">
+                        <span>View All Projects</span>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section achievements-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">Recognition</span>
+                    <h2 class="section-title">Achievements</h2>
+                    <p class="section-desc">Milestones and recognitions earned</p>
+                </div>
+                
+                <div class="achievements-grid">
+                    <div class="achievement-card" data-aos="fade-up">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Academic Excellence</h3>
+                        <p class="achievement-subtitle">8.8 CGPA • Top 5%</p>
+                        <p>Maintained exceptional academic performance with consistent excellence in AI/ML coursework.</p>
+                    </div>
+                    
+                    <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="achievement-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Coding Excellence</h3>
+                        <p class="achievement-subtitle">300+ LeetCode</p>
+                        <p>Demonstrated strong algorithmic thinking through consistent competitive programming.</p>
+                    </div>
+                    
+                    <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="achievement-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3>Blogathon Winner</h3>
+                        <p class="achievement-subtitle">Technical Writing</p>
+                        <p>Secured top position for innovative AI/ML content and technical communication.</p>
+                    </div>
+                    
+                    <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="achievement-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community Leadership</h3>
+                        <p class="achievement-subtitle">100+ Members</p>
+                        <p>Led technical initiatives and mentored developers in the community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt contact-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-tag">Let's Connect</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-desc">Ready to collaborate on exciting AI/ML projects or discuss opportunities</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-card">
+                            <div class="contact-icon" aria-hidden="true">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>vidishkumar890@gmail.com</p>
+                                <a href="mailto:vidishkumar890@gmail.com" class="contact-link" aria-label="Send email to Vidish Kumar">Send Message</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon" aria-hidden="true">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>LinkedIn</h3>
+                                <p>Professional Network</p>
+                                <a href="https://www.linkedin.com/in/vidishkumar/" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Connect with Vidish Kumar on LinkedIn">Connect</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon" aria-hidden="true">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>GitHub</h3>
+                                <p>Code Repository</p>
+                                <a href="https://github.com/Vidish3442" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="View Vidish Kumar's GitHub projects">View Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container" data-aos="fade-left">
+                        <form class="contact-form" id="contactForm" aria-label="Contact form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required aria-required="true">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon" aria-hidden="true">VK</span>
+                        <span class="logo-text">Vidish Kumar</span>
+                    </div>
+                    <p>AI/ML Engineer passionate about creating intelligent solutions that make a positive impact.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/vidishkumar/" target="_blank" rel="noopener noreferrer" aria-label="Vidish Kumar on LinkedIn">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/Vidish3442" target="_blank" rel="noopener noreferrer" aria-label="Vidish Kumar on GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:vidishkumar890@gmail.com" aria-label="Email Vidish Kumar">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#experience">Experience</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>More</h4>
+                        <ul>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#achievements">Achievements</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Featured</h4>
+                        <ul>
+                            <li><a href="https://drdetection-vk-sp.streamlit.app" target="_blank" rel="noopener">Diabetic Retinopathy</a></li>
+                            <li><a href="https://github.com/Vidish3442/Drone" target="_blank" rel="noopener">Drone Detection</a></li>
+                            <li><a href="https://github.com/Vidish3442?tab=repositories" target="_blank" rel="noopener">View All</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> Vidish Kumar. All rights reserved. Built with passion and AI.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
